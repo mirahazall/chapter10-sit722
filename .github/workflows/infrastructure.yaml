@@ -39,7 +39,7 @@ jobs:
         run: kubectl apply -f ./scripts/cd/mongodb.yaml
 
       # 
-      # Deploys RabbitMQ..
+      # Deploys RabbitMQ.
       #
       - name: Deploy Rabbit
         run: kubectl apply -f ./scripts/cd/rabbit.yaml
